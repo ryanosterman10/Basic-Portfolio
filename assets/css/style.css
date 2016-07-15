@@ -1,0 +1,22 @@
+body{
+      text-align: center;
+      background: url(https://scontent-iad3
+      -1.xx.fbcdn.net/v/t1.0-9/1779076_1015
+      4007593904344_7147266395172958346_n.j
+      pg?oh=6e7b6bac8c476f39cf158aa1c71fc06
+      d&oe=582ED6F3);
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-family: Arial;
+      }
+h1{
+      font-family: Georgia;
+      color: white;
+      background-color:skyblue;
+      border-color:#cccccc;
+      }
+p{
+      background-color: white;
+      }
