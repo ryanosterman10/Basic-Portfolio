@@ -14,7 +14,7 @@ body{
 header{
       background-color: #ffffff;
       border-bottom: 2px solid #cccccc;
-      line-height: 4;
+      height:50px;
 }
 
 #logo{
@@ -27,7 +27,7 @@ header{
       padding-right: 30px;
       padding-left: 30px;
       font-family: 'Georgia', Times, 'Times New Roman', serif;
-      border: 3px solid white;
+      border: 4px solid white;
 }
 
 #navbar{
@@ -35,18 +35,23 @@ header{
       display: inline;
       position: relative;
       float: right;
+      padding-top: 10px;
 }
 
 #navbar li a:hover{
       background-color: #4aaaa5;
+      color: white;
 }
 
 .nav-item{
       display: inline;
-      font-size: 1.5em;
+      height: 100%;
+      font-size: 1.25em;
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       padding-right: 20px;
       padding-left: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
       border-right: 2px solid #777777;
       color: #777777;
 }
@@ -55,6 +60,7 @@ header{
       text-decoration: none;
       text-align: center;
       color: #777777;
+      padding: 20px;
 }
 
 .main{
@@ -68,7 +74,7 @@ header{
       margin-bottom: 30px;
       background-color: #ffffff;
       width: 650px;
-      border: 1px solid #dddddd;
+      border: 2px solid #dddddd;
       margin-left: 20px;
 }
 
@@ -76,8 +82,7 @@ header{
       width: 200px;
       height: 200px;
       float: left;
-      padding-left: 20px;
-      padding-right: 20px;
+      padding: 20px;
 }
 
 .main-header{
@@ -87,6 +92,7 @@ header{
       margin: 10px;
       padding-top: 20px;
       padding-bottom: 20px;
+      padding-left: 20px;
       border-bottom: 3px solid #dddddd;
 
 }
@@ -95,7 +101,7 @@ header{
       font-family: 'Arial', 'Helvetica', Helvetica, sans-serif;
       color: #777777;
       padding: 15px;
-      line-height: 1.5;
+      line-height: 1.75;
 }
 
 #social{
@@ -108,11 +114,18 @@ header{
       width: 270px;
       float: right;
       background-color: #ffffff;
-      border: 1px solid #dddddd;
+      border: 2px solid #dddddd;
 }
 
 #social-header{
+      text-align: center;
+      color: #4aaaa5;
       font-size: 1.5em;
+      font-weight: bold;
+      margin: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      border-bottom: 3px solid #dddddd;
 }
 
 #icons{
@@ -126,10 +139,13 @@ header{
       padding: 2px;
 }
 
-footer{
+footer p{
       text-align: center;
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       background-color: #666666;
       color: white;
-      border-top: 10px solid #4aaaa5;
+      border-top: 5px solid #4aaaa5;
+      height: 50px;
+      padding-top: 25px;
 
 }
