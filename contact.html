@@ -1,21 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Ryan Osterman</title>
-		<!--
-		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<link rel="stylesheet" type="text/css" href="reset.css"/>
-		-->
-
+		<title>Contact - Ryan Osterman</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
 		
 		<style>
-			body{
-				background: url(https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/1779076_10154007593904344_7147266395172958346_n.jpg?oh=6e7b6bac8c476f39cf158aa1c71fc06d&oe=582ED6F3);
-            	background-size: cover;
-            	background-position: center center;
-            	background-repeat: no-repeat;
-            	background-attachment: fixed;
-            	}
+		
             h1{
             	color:#4aaaa5;
 		 		background-color:#ffffff; 
@@ -32,20 +23,49 @@
 				}
 		</style>
 
-
-
 	</head>
+
 	<body>
-		<header>
-			<h1>Ryan Osterman</h1>
-		</header>
-		<h2><strong>Contact</strong></h2>
-		<input type="name" name="Name" placeholder="Enter your name">
-		<br/>
-		<input type="email" name="Email" placeholder="example@gmail.com">
-		<br/>
-		<input type="message" name="Message">
-		<br/>
-		<input type="submit">
+		<section id="container">
+
+			<header>
+				<h1 id="logo">Ryan Osterman</h1>
+				<ul id="navbar">
+					<li class="nav-item"><a href="index.html">About</a></li>
+					<li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+					<li class="nav-item"><a href="contact.html">Contact</a></li>
+				</ul>
+			</header>
+		
+		<section class="main">
+
+
+			<h2><strong>Contact</strong></h2>
+			<input type="name" name="Name" placeholder="Enter your name">
+	
+			<input type="email" name="Email" placeholder="example@gmail.com">
+		
+			<input type="message" name="Message">
+		
+			<input type="submit">
+
+	
+
+		<aside id="social">
+				<h3 class="main-header" id="social-header">Connect with Me</h3>
+				<div id="icons">
+					<img src="assets/images/github-logo.png">
+					<img src="assets/images/linkedin-logo.png">
+					<img src="assets/images/stackoverflow-logo.png">
+				</div>
+			</aside>
+
+		</section>
+
+			<footer>
+				<p>&copy;Copyright 2016 Ryan Osterman</p>
+			</footer>
+
+		</section>
 	</body>
 </html>
