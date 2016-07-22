@@ -97,8 +97,51 @@ header{
       border: 4px solid #dddddd;
 }
 
-.main-content .portfolio-pics{
-      padding-left: 45px;
+.port{
+      width: 250px;
+      height: 250px;
+      float: left;
+      background-repeat: no-repeat;
+      margin: 10px 25px 10px 40px;
+      border: 2px solid #dddddd;
+
+}
+
+#portfolio1{
+      background-image: url("../images/portfolio1.jpeg");
+}
+
+#portfolio2{
+      background-image: url("../images/portfolio2.jpeg");
+}
+
+#portfolio3{
+      background-image: url("../images/portfolio3.jpeg");
+}
+
+#portfolio4{
+      background-image: url("../images/portfolio4.jpeg");
+}
+
+#portfolio5{
+      background-image: url("../images/portfolio5.jpeg");
+}
+
+.caption{
+      position: relative;
+      top: 190px;
+      text-align: center;
+      background-color: #4aaaa5;
+      line-height: 200%;
+      font-family: 'Georgia', Times, 'Times New Roman', serif;
+      font-size: 1.4em;
+      color: white;
+      padding: 5px;
+}
+
+.caption:hover{
+      background-color: black;
+      color: #4aaaa5;
 }
 
 .main-header{
