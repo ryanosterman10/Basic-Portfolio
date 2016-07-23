@@ -269,6 +269,11 @@ input[type="submit"]:hover{
       color: #4aaaa5;
 }
 
+input[type="submit"]:active{
+      background-color: black;
+      color: white;
+}
+
 .main-content .label{
       position: relative;
       left: 30px;
